@@ -511,39 +511,39 @@ body {
   font-size: 14px;
 }
 
-main .visual {
+main section.visual {
   background: #151a1d url("../images/main_bg_parttern_1.png");
   padding-top: 72px;
 }
-main .visual .slide {
+main section.visual .slide {
   display: flex;
   justify-content: space-between;
   margin-top: 18px;
   margin-bottom: 93px;
 }
-main .visual .slide .description .title {
+main section.visual .slide .description .title {
   margin-bottom: 100px;
 }
-main .visual .slide .description .title h1 {
+main section.visual .slide .description .title h1 {
   font-size: 48px;
   font-weight: bold;
   line-height: 1.31;
   color: #fff;
   margin-bottom: 15px;
 }
-main .visual .slide .description .title p {
+main section.visual .slide .description .title p {
   font-size: 18px;
   font-weight: 300;
   line-height: 1.89;
   color: #ccc;
 }
-main .visual .slide .description .button {
+main section.visual .slide .description .button {
   margin-bottom: 30px;
 }
-main .visual .slide .description .button img {
+main section.visual .slide .description .button img {
   margin-right: 10px;
 }
-main .visual .slide .description .button a {
+main section.visual .slide .description .button a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -555,96 +555,96 @@ main .visual .slide .description .button a {
   font-size: 18px;
   font-weight: bold;
 }
-main .visual .slide .description .button p.sub {
+main section.visual .slide .description .button p.sub {
   font-size: 14px;
   font-weight: 300;
   color: #777;
   margin-top: 10px;
 }
-main .visual .slide .description .platforms p {
+main section.visual .slide .description .platforms p {
   font-size: 16px;
   font-weight: 300;
   color: #fff;
   margin-bottom: 20px;
 }
-main .visual .slide .description .platforms a {
+main section.visual .slide .description .platforms a {
   margin-right: 30px;
 }
-main .visual .tab-menu {
+main section.visual .tab-menu {
   position: relative;
   background-color: #1b2227;
   opacity: 0.9;
 }
-main .visual .tab-menu ul {
+main section.visual .tab-menu ul {
   position: relative;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .visual .tab-menu ul li {
+main section.visual .tab-menu ul li {
   width: 280px;
   height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .visual .tab-menu ul li .box {
+main section.visual .tab-menu ul li .box {
   width: 22px;
   height: 22px;
   margin-right: 10px;
 }
-main .visual .tab-menu ul li a {
+main section.visual .tab-menu ul li a {
   font-size: 15px;
   color: #fff;
 }
-main .visual .tab-menu ul li:nth-child(1) {
+main section.visual .tab-menu ul li:nth-child(1) {
   background-color: #151a1d;
 }
-main .visual .tab-menu ul li:nth-child(1) .box {
+main section.visual .tab-menu ul li:nth-child(1) .box {
   background-color: #14cac1;
 }
-main .visual .tab-menu ul li:nth-child(2) .box {
+main section.visual .tab-menu ul li:nth-child(2) .box {
   background-color: #ddb418;
 }
-main .visual .tab-menu ul li:nth-child(3) .box {
+main section.visual .tab-menu ul li:nth-child(3) .box {
   background-color: #7167ff;
 }
-main .contents {
+main section.contents {
   padding-bottom: 215px;
 }
-main .contents .item {
+main section.contents .item {
   padding-top: 215px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-main .contents .item .description {
+main section.contents .item .description {
   padding-right: 48px;
 }
-main .contents .item .description.left {
+main section.contents .item .description.left {
   padding-right: 0;
   padding-left: 48px;
 }
-main .contents .item .description h3 {
+main section.contents .item .description h3 {
   font-size: 18px;
   color: #14cac1;
   font-weight: 900;
   margin-bottom: 14px;
 }
-main .contents .item .description h2 {
+main section.contents .item .description h2 {
   font-size: 42px;
   line-height: 1.29;
   font-weight: 900;
   margin-bottom: 30px;
   color: #000;
 }
-main .contents .item .description h4 {
+main section.contents .item .description h4 {
   font-size: 20px;
   line-height: 1.7;
   color: #222;
 }
-main .contents .item .thumb {
+main section.contents .item .thumb {
   background-color: #272c33;
   width: 760px;
   height: 500px;
@@ -726,7 +726,7 @@ main .contents .item .thumb {
   font-weight: 300;
   color: #ccc;
   font-size: 14px;
-  padding-right: 62px;
+  padding-right: 30px;
 }
 #footer .footer-menu .links a.em {
   font-weight: 900;
@@ -734,6 +734,13 @@ main .contents .item .thumb {
 #footer .footer-menu .links a img {
   position: absolute;
   right: 12px;
+}
+#footer .footer-menu .links a.bar:after {
+  content: "";
+  width: 1px;
+  height: 12px;
+  background-color: #222;
+  margin-left: 33px;
 }
 #footer .footer-menu .language {
   position: absolute;

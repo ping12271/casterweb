@@ -52,7 +52,7 @@
 }
 
 main {
-  .visual {
+  section.visual {
     background: #151a1d url("../images/main_bg_parttern_1.png");
     padding-top: 72px;
     .slide {
@@ -161,7 +161,7 @@ main {
     }
   }
 
-  .contents {
+  section.contents {
     padding-bottom: 215px;
     .item {
       padding-top: 215px;
@@ -277,13 +277,22 @@ main {
         font-weight: 300;
         color: #ccc;
         font-size: 14px;
-        padding-right: 62px;
+        padding-right: 30px;
         &.em {
           font-weight: 900;
         }
         img {
           position: absolute;
           right: 12px;
+        }
+        &.bar {
+          &:after {
+            content: '';
+            width: 1px;
+            height: 12px;
+            background-color: #222;
+            margin-left: 33px;
+          }
         }
       }
     }
