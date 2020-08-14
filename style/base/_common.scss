@@ -4,9 +4,13 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
     word-break: keep-all;
 }
+#wrap {
+    overflow: hidden;
+    padding-top: 80px;
+}
 
 .container {
-    max-width: 1470px;
+    max-width: 1170px;
     margin: 0 auto;
-    padding: 0 150px;
+    padding: 0 15px;
 }

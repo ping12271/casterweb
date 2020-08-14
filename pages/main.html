@@ -5,199 +5,172 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>caster</title>
+    <title>web caster</title>
 
     <!--  font noto sans  -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!--  font awesome cdn  -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!--  google material icons  -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-          rel="stylesheet">
-
     <link rel="stylesheet" href="../style/style.css">
-
     <script src="../js/lib/jquery.js"></script>
 </head>
 <body>
 <div id="wrap">
-    <header id="header">
+    <header class="header">
         <div class="container">
-            <a class="logo" href="#!">PUFF</a>
+            <a href="#!" class="logo">PUFF</a>
             <div class="gnb">
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="#!">Product</a>
-                            <img src="../images/gnb_dropdown_open.png" alt="">
-                        </li>
-                        <li>
-                            <a href="#!">Premium</a>
-                            <img src="../images/gnb_dropdown_open.png" alt="">
-                        </li>
-                        <li>
-                            <a href="#!">Learn more</a>
-                            <img src="../images/gnb_dropdown_open.png" alt="">
-                        </li>
-                    </ul>
+                    <div class="nav-item">
+                        <a href="#!" class="nav-link">제품 <img src="../images/gnb_dropdown_open.png" alt=""></a>
+                        <div class="dropdown">
+                            <a href="#!">PUFF CASTER</a>
+                            <a href="#!">PUFF CHAT</a>
+                            <a href="#!">PUFF CAM</a>
+                        </div>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#!" class="nav-link">프리미엄</a>
+                    </div>
+                    <div class="nav-item">
+                        <a href="#!" class="nav-link">더 알아보기</a>
+                    </div>
                 </nav>
-                <div class="user">
-                    <p>testDone</p>
-                    <img src="../images/profile_thumbnail_img_.png" alt="">
+                <div class="member-area">
+                    <a class="btn btn-lime btn-md btn-login">로그인</a>
                 </div>
             </div>
         </div>
     </header>
         
     <main>
-        <section class="section visual">
+        <section class="visual">
             <div class="container">
-                <div class="slide">
-                    <div class="description">
-                        <div class="title">
-                            <h1>All-new Live<br>Streaming Program</h1>
-                            <p>
-                                With Caster’s special features, create your own special Live<br>
-                                Streaming that you have never experienced before!
-                            </p>
-                        </div>
-                        <div class="button">
-                            <a href="#!">
-                                <img src="../images/download_icn.png" alt="">
-                                CASTER Download
-                            </a>
-                            <p class="sub">Window 64-bit or higher (Ver. 10.13.5)</p>
-                        </div>
-                        <div class="platforms">
-                            <p>Various interlocking platforms</p>
-                            <a href="#!"><img src="../images/top_icn_youtube.png" alt=""></a>
-                            <a href="#!"><img src="../images/top_icn_twitch.png" alt=""></a>
-                            <a href="#!"><img src="../images/top_icn_facebook.png" alt=""></a>
-                            <a href="#!"><img src="../images/top_icn_mixer.png" alt=""></a>
-                        </div>
+                <div class="particle1">
+                    <img src="../images/main_bg_parttern_1.png" alt="">
+                </div>
+                <div class="particle2">
+                    <img src="../images/main_bg_parttern_2.png" alt="">
+                </div>
+                <div class="text">
+                    <h1>지금까지 볼 수 없었던, <br>
+                        라이브 스트리밍 프로그램
+                    </h1>
+                    <p>Caster의 특별한 기능들을 사용하여 지금까지 경험해보지 못한
+                        특별한 라이브 스트리밍을 만들어보세요</p>
+                    <div class="more prefix-dot">메뉴얼 상세보</div>
+                    <a href="#!" class="btn btn-topaz btn-lg btn-download">
+                        <img src="../images/download_icn.png" alt="다운로드">
+                        PUFFCASTER 다운로드
+                    </a>
+                    <div class="extra-info">window 64비트 또는 그 이상 (Ver. 10.13.5)</div>
+                    <div class="platform">
+                        <a href="#!"><img src="../images/top_icn_youtube.png" alt=""></a>
+                        <a href="#!"><img src="../images/top_icn_twitch.png" alt=""></a>
+                        <a href="#!"><img src="../images/top_icn_facebook.png" alt=""></a>
+                        <a href="#!"><img src="../images/top_icn_mixer.png" alt=""></a>
                     </div>
-                    <div class="thumb">
-                        <img src="../images/이미지%2023.png" alt="">
-                    </div>
+                </div>
+                <div class="img">
+                    <img src="../images/이미지%2023.png" alt="">
                 </div>
             </div>
-            <div class="tab-menu">
-                <div class="container">
-                    <ul>
-                        <li>
-                            <div class="box"></div>
-                            <a href="#!">PUFF CASTER</a>
-                        </li>
-                        <li>
-                            <div class="box"></div>
-                            <a href="#!">PUFF PLAY</a>
-                        </li>
-                        <li>
-                            <div class="box"></div>
-                            <a href="#!">PUFF CAM</a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="dots">
+                <div class="dot"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
+            </div>
+            <nav>
+                <a class="caster is-active" href="#!">퍼프 캐스터</a>
+                <a class="chat" href="#!">퍼프 채팅창</a>
+                <a class="cam" href="#!">퍼프 캠</a>
+            </nav>
+        </section>
+
+        <section class="features">
+            <div class="container">
+
+                <script>
+                    const data = [
+                        {
+                            label: 'PUFF EFFECT',
+                            title: '라이브를 \n더욱 라이브답게!',
+                            description: '캐스터에서 지원하는 이벤트 아이템은 누구나 손쉽게 사용할 수 있으며, 당신의 라이브를 마치 편집된 영상과 같이 바꾸어줍니다.',
+                            media: ''
+                        },
+                        {
+                            label: 'TEXT CUSTOMIZING',
+                            title: '여러 플랫폼에서 \n동시 송출하세요',
+                            description: '캐스터는 여러 라이브 플랫폼이 동시에 방송하는 멀티 스트리밍 기능을 지원합니다. 이제 하나의 라이브 플랫폼이 아닌 여러 플랫폼에서 동시에 라이브를 진행해보세요.',
+                            media: ''
+                        },
+                        {
+                            label: 'TEXT CUSTOMIZING',
+                            title: '생동감있는 \n라이브 텍스트',
+                            description: '평범한 공지는 시청자의 눈길을 사로잡지 못합니다. 캐스터는 텍스트에도 다양한 시각적 효과를 사용할 수 있습니다. 이제 더 생동감있는 라이브 텍스트를 입력해보세요.',
+                            media: ''
+                        }
+                    ]
+
+                    const featuresDom = data.map(function (item) {
+                        return`
+                            <div class="item">
+                                <div class="text">
+                                    <h3>${item.label}</h3>
+                                    <h2>${item.title}</h2>
+                                    <p>${item.description}</p>
+                                </div>
+                                <div class="media">${item.media}</div>
+                            </div>
+                        `
+                    })
+
+                    $('.features .container').html(featuresDom);
+
+                </script>
+
             </div>
         </section>
 
-        <section class="section contents">
+        <section class="download">
             <div class="container">
-                <div class="item">
-                    <div class="description">
-                        <h3>PUFF EFFECT</h3>
-                        <h2>
-                            Make your<br>
-                            LIVE more lively!
-                        </h2>
-                        <h4>
-                            PUFF Effect that can only be used on<br>
-                            casters. It can be used easily by<br>
-                            anyone, and it will turn your live into<br>
-                            a more voluminous like an edited<br>
-                            video.
-                        </h4>
-                    </div>
-                    <div class="thumb"></div>
+                <div class="parttern1">
+                    <img src="../images/download_bg_parttern_1.png" alt="">
                 </div>
-                <div class="item">
-                    <div class="thumb"></div>
-                    <div class="description left">
-                        <h3>TEXT CUSTOMIZING</h3>
-                        <h2>
-                            Vibrant<br>
-                            Live Text
-                        </h2>
-                        <h4>
-                            Ordinary announcements do not<br>
-                            catch the viewer’s eye.<br>
-                            Casters can also use a variety of<br>
-                            visual effects on text.<br>
-                            Now use the live text feature for<br>
-                            more liveliness.
-                        </h4>
-                    </div>
+                <div class="parttern2">
+                    <img src="../images/download_bg_parttern_2.png" alt="">
                 </div>
-                <div class="item">
-                    <div class="description">
-                        <h3>MULTI - STREAMING</h3>
-                        <h2>
-                            Live on<br>
-                            multiple platforms
-                        </h2>
-                        <h4>
-                            Caster supports multi-streaming<br>
-                            function that multiple live platforms<br>
-                            broadcast simultaneously.<br>
-                            Now try to live on multiple platforms<br>
-                            at the same time instead of just one<br>
-                            live platform.
-                        </h4>
-                    </div>
-                    <div class="thumb"></div>
+                <a href="#!" class="btn-download btn btn-topaz btn-lg">
+                    <img src="../images/download_icn.png" alt="다운로드">
+                    PUFFCASTER 다운로드
+                </a>
+                <div class="extra-info">window 64비트 또는 그 이상 (Ver. 10.13.5)</div>
+                <h2>지금 바로 당신의 라이브를 시작해보세요!</h2>
+                <div class="update">
+                    PUFF CASTER의 새로운 버전이 업데이트 되었습니다!
+                    <img src="../images/toggle_close.png" alt="">
                 </div>
             </div>
         </section>
     </main>
 
-    <footer id="footer">
-        <div class="download">
-            <div class="container">
-                <div class="button-down">
-                    <a href="#!">
-                        <img src="../images/download_icn.png" alt="">
-                        Caster Download
-                    </a>
-                    <p class="sub">Window 64-bit or higher (Ver. 10.13.5)</p>
+    <footer class="footer">
+        <div class="container">
+            <nav>
+                <a href="#!" class="logo">PUFF</a>
+                <a href="#!">서비스이용약관</a>
+                <a href="#!">개인정보처리방침</a>
+                <a href="#!">도움말</a>
+            </nav>
+            <div class="dropdown">
+                <div class="name">한국어
+                    <img src="../images/footer_dropdown_open.png" alt="">
                 </div>
-                <p>Start your special Live with PUFF Caster!</p>
-                <div class="version-bar">
-                    <a href="#!">
-                        The new version of PUFF CASTER has been updated!
-                        <img src="../images/toggle_close.png" alt="">
-                    </a>
+                <div class="options">
+                    <div class="option">한국어</div>
+                    <div class="option">영어</div>
                 </div>
             </div>
         </div>
-        <div class="footer-menu">
-            <div class="container">
-                <div class="links">
-                    <a class="em" href="#!">PUFF</a>
-                    <a class="bar" href="#!">Terms</a>
-                    <a class="bar" href="#!">Privacy</a>
-                    <a href="#!">User Guide</a>
-                </div>
-                <div class="language">
-                    <div class="name">
-                        English
-                        <img src="../images/footer_dropdown_open.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <p>Copyright ©Starship Vending-machine. All rights reserved.</p>
-        </div>
+        <p>Copyright ©Starship Vending-machine. All rights reserved.</p>
     </footer>
 </div>
 <script src="../js/script.js"></script>

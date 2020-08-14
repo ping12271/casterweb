@@ -1,0 +1,32 @@
+.btn {
+  background: transparent;
+  border-radius: pxToRem(6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  color: #151a1d;
+  transition: .4s;
+}
+
+.btn-md {
+  height: pxToRem(40);
+}
+
+.btn-lg {
+  height: pxToRem(60);
+  font-size: pxToRem(18);
+}
+
+.btn-topaz {
+  background: $topaz;
+  color: #151a1d;
+}
+
+.btn-lime {
+  background: $lime;
+  color: #151a1d;
+  &:hover {
+    background: darken($lime, 5%);
+  }
+}
