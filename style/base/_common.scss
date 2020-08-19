@@ -5,6 +5,7 @@ body {
     word-break: keep-all;
 }
 #wrap {
+    min-width: 1200px;
     overflow: hidden;
     padding-top: 80px;
 }
